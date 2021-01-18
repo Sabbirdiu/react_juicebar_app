@@ -1,6 +1,7 @@
 import React from 'react'
 
-function JuiceList() {
+function JuiceList({juice}) {
+    console.log(juice)
     return (
         <div>
             <h1>Juice list compo</h1>

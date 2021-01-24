@@ -13,7 +13,7 @@ function JuiceList({juice,loading}) {
       }
     return (
         <section className="section">
-      <h2 className="section-title">cocktails</h2>
+      <h2 className="section-title">Juices</h2>
       <div className="cocktails-center">
         {juice.map(item => {
           return <Juice key={item.id} {...item} />;
